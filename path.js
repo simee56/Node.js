@@ -1,7 +1,10 @@
 const path = require('path');
 
-path.parse(__filename);
+let fileName = path.parse(__filename);
+let baseName = path.basename(__filename);
+let extName = path.extname(__filename);
 
-path.basename('C:\\temp\\myfile.html');
+console.log(fileName);
+console.log(baseName);
+console.log(extName);
 
-path.dirname(__filename);
