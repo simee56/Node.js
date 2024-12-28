@@ -1,6 +1,6 @@
 const os = require('os');
 
-let totalMemory = os.totalmem();
+let sysTotalMemory = os.totalmem();
 let freeMemory = os.freemem();
 let upTime = os.uptime();
 let hostName = os.hostname();
