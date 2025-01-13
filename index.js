@@ -1,5 +1,5 @@
 // Importing the function which is used in math.json with the help of require function.
-//This is known as Common ja module.
+//This type of exporting and importing of modules is known as Common js module.
 const math = require('./math.js');
 console.log("The value of math is : ", math.add(4, 5));
 
