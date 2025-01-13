@@ -9,6 +9,8 @@ function sub(a, b) {
 }
 
 //exporting this function with the help of module.exports but module.exports can be used only once
+//This is known as common js module.
+
 // module.exports = add;
 
 module.exports = {
