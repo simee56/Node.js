@@ -1,2 +1,2 @@
 # Node.js
-Learning basics of node js.
+Learning basics of Node js.
